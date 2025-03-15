@@ -31,4 +31,6 @@ function sortearAmigo(){
         alert("No hay amigos para sortear");
         return;
     }
+    let amigoSorteado = amigo[Math.floor(Math.random() * amigo.length)];
+    
 }
