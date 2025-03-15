@@ -2,5 +2,8 @@
 let amigo = [];
 
 function agregarAmigo(){
+    let inputAmigo = document.getElementById("amigo");
+    let nombreAmigo = inputAmigo.value;
+
     
 }
