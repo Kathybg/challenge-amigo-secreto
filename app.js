@@ -11,7 +11,8 @@ function agregarAmigo(){
     }
     amigo.push(nombreAmigo);
     inputAmigo.value = "";
-    inputAmigo.focus();    
+    inputAmigo.focus();
+    renderizarAmigos();   
 }
 
 function renderizarAmigos(){
@@ -21,7 +22,7 @@ function renderizarAmigos(){
     for( let i = 0; i< amigo.length; i++){
         let item = document.createElement("li");
         item.textContent = amigo[i];
-        
+        listaAmigos.appendChild(item);
     }
 
 }
