@@ -9,5 +9,7 @@ function agregarAmigo(){
         alert("Debe ingresar un nombre");
         return;
     }
+    amigo.push(nombreAmigo);
+    
     
 }
