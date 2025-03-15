@@ -10,6 +10,7 @@ function agregarAmigo(){
         return;
     }
     amigo.push(nombreAmigo);
-    
+    inputAmigo.value = "";
+    inputAmigo.focus();
     
 }
