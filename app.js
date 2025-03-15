@@ -24,5 +24,8 @@ function renderizarAmigos(){
         item.textContent = amigo[i];
         listaAmigos.appendChild(item);
     }
+}
 
+function sortearAmigo(){
+    
 }
