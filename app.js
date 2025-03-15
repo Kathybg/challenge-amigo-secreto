@@ -5,5 +5,9 @@ function agregarAmigo(){
     let inputAmigo = document.getElementById("amigo");
     let nombreAmigo = inputAmigo.value;
 
+    if (!nombreAmigo){
+        alert("Debe ingresar un nombre");
+        return;
+    }
     
 }
