@@ -15,5 +15,8 @@ function agregarAmigo(){
 }
 
 function renderizarAmigos(){
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
     
+
 }
