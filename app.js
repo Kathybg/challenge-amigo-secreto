@@ -32,5 +32,6 @@ function sortearAmigo(){
         return;
     }
     let amigoSorteado = amigo[Math.floor(Math.random() * amigo.length)];
-    
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `El amigo secreto es: ${amigoSorteado}`;
 }
